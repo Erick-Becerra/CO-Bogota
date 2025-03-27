@@ -80,3 +80,20 @@ node_modules/
 vendor/
 bower_components/
 jspm_packages/
+
+# RMarkdown
+*.Rproj
+.Rhistory
+.RData
+.Ruserdata
+/cache/
+/libs/
+
+# Archivos temporales de R/RStudio
+*.log
+*.aux
+*.toc
+*.out
+*.blg
+*.bbl
+*.synctex.gz
