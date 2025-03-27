@@ -1,0 +1,82 @@
+# ---------------------------
+# Archivos generados por el sistema
+# ---------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------------------
+# Entornos de desarrollo/IDEs
+# ---------------------------
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ---------------------------
+# Lenguajes específicos
+# ---------------------------
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+*.egg
+pip-log.txt
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+bin/
+target/
+build/
+.gradle/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Datos y modelos grandes (evita subir datasets pesados)
+*.csv
+*.xlsx
+*.feather
+*.parquet
+*.pickle
+*.pkl
+*.h5
+*.model
+*.weights
+
+# ---------------------------
+# Archivos de sistema y logs
+# ---------------------------
+*.log
+*.sqlite
+*.sql
+*.bak
+*.tmp
+*.swp
+*~
+
+# ---------------------------
+# Dependencias y paquetes
+# ---------------------------
+node_modules/
+vendor/
+bower_components/
+jspm_packages/
